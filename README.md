@@ -1,5 +1,5 @@
 # 2017-08-02_Collaborating-with-Git
-Workshop for U of T Coders, 2017-08-02
+Workshop for U of T Coders, 2017-08-02  
 Presenter: Kathy K.Y. Chung (Post-Doc Fellow in Digitial Humanities, Records of Early English Drama)
 
 Etherpad URL: https://etherpad.wikimedia.org/p/2017-08-02_UTCoders_GitCollab
