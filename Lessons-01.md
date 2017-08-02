@@ -10,7 +10,7 @@
 ### Git vs GitHub
 #### Git
 - Git is the command line version control system (VCS) software which works on your local computer.
-- Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.[12] Its current maintainer since 2005 is Junio Hamano.
+- Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
 - You need Git to use GitHub. You can use Git locally without GitHub.
 
 #### GitHub
@@ -27,7 +27,7 @@
 - Always do your work on branches and then .
 -
 
-#### asic Shared Repository Workflow
+#### Basic Shared Repository Workflow
 - update your local repo with `git pull origin master`,
 - create a working branch with `git checkout -b MyNewBranch`
 - make your changes on your branch and stage them with `git add`,
@@ -40,7 +40,7 @@
 
 
 
-#### Fork and Pull Model####
+#### Fork and Pull Model
 - This is the model used by U of T Coders on its own website and repos.
 - The "owner"/"Project Leader" of the upstream repo assigns rights to "Collaborators"
 - Collaborators do not have push access to main (upstream) repo
@@ -71,7 +71,7 @@ Pull Request | Term used in collaboration. You "issue a pull request" to the own
 
 
 
-##### Configuring git global settings on your local computer
+#### Configuring git global settings on your local computer
 (You only have to do this once; global settings apply to all your git repos)
 Note: Any Local settings you initiate within individual git repositories will over ride global settings.
 - username
@@ -98,24 +98,24 @@ Set up your favorite text editor (default editor):
 See https://swcarpentry.github.io/git-novice/02-setup/ for settings for other text editors
 
 
-#### Solo Practise
+### Solo Practise
 This is mainly the 10 mins GitHub "Hello World" tutorial
 https://guides.github.com/activities/hello-world/
 
-##### A. Create a Remote Repo in your GitHub Account
+#### A. Create a Remote Repo in your GitHub Account
 
   1. In URC, click **+**, then select **New repository**
   2. Name your repository ```Kathy's Project```.
   3. Write a short description.
   4. Select **Initialize this repository with a README**.
 
-##### B. Create a Branch
+#### B. Create a Branch
 
 1. Click drop down at top of file list that says *branch: master*.
 2. Type a branch name, `readme-edits`, into the new branch text box.
 3. Select the blue *Create branch* box or hit "Enter" on your keyboard. Notice you are now on the code view of your `readme-edits` branch, which is a copy of `master`.
 
-##### C. Make and commit changes
+#### C. Make and commit changes
 
 
 
@@ -126,7 +126,7 @@ https://guides.github.com/activities/hello-world/
 
 
 
-##### Create a Local Repo
+#### Create a Local Repo
 
 
 
