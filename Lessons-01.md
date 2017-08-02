@@ -143,29 +143,88 @@ You will merge your  `readme-edits` branch into your `master` branch.
 3. You can now delete the branch
 
 
+## Two Person Practise via GitHub guides  
+One of you is the Project Lead. The other will be the Contributor.
+
+#### A. Project Lead: Create a Remote Repo in your GitHub Account
+
+  1. In URC, click **+**, then select **New repository**
+  2. Name your repository ```Kathy's Project```.
+  3. Write a short description.
+  4. Select **Initialize this repository with a README**.\
+  5. Give your partner the URL to your repo.
+
+#### B. Project Lead: Add a File
+1. Click **New file**
+2. Give the file a name.
+3. Put some content in the file.
+4. Write a commit message at bottom of screen.
+5. Click the **Commit changes** button.
+
+#### C. Project Lead: Make a Label
+1. Click on **Issues** tab.
+2. Click on the **Labels** box.
+3. Add a label called ".............."
+
+#### D. Project Lead: Make an Issue
+1. Click on **New Issue** button.
+2. Give it a title and brief description. You can use @mention in your description to ask for specific feedback.
+3. Give it a label.
+
+#### E. Contributor: Comment on an Issue
+1. Go to the PL's repo.
+2. Click on the **issues** button to see all the issues.
+3. Select the one you wish to respond to.
+4. Make a comment, introduce yourself and volunteer to work on the issue.
+
+#### F. Project Lead: Reply to a comment
+1. From your own repo, select the commented issue.
+2. Write a reply.
+3. Assign the issue to yourself so you can monitor it and answer questions, etc.
+
+#### H. Contributor: Fork and Branch
+1. Go to your own GitHub account.
+2. Find the Lead's repo and fork it.
+3. Create a branch in your forked repo (see previous Solo practise for instructions)
+4. Give the branch a name which indicates the feature or change you're working on.
+
+#### I. Contributor: Do Work and Commit
+1. Make changes in this branch.
+2. When you are done, write a commit message, and click on the **Commit changes** button.
+
+#### J. Contributor: Make a Pull Request to the Upstream Repo
+1. Select **Pull Request** tab.
+2. Click on **New Pull Request**
+3. Make sure you've selected the correct branch where you've made your edits.
+4. Name your pull request and provide a brief description (you might wish to include a reference to the related issue #).
+5. Click on the green **Create Pull Request** button.
+
+#### K. Project Lead: Review the Pull Request
+1. Review changes made by contributor.
+2. You can send comments back and forth to discuss the work. Thank your contributor.
+
+#### L. Project Lead: Merge the changes
+1. Click on the **Merge pull request** button.
+2. Close the issue; additional remarks and thanks.
 
 
 
 
 
-
-#### Create a Local Repo
-
-
-
-
-##### Add Files to Your Local Repo
-
-
-
-
-
-#### Clone Your GitHub Repo onto Your Local Computer
-
+## Miscellaneous Tasks
+#### Create a Local Git Repo (via CLI)
+1. Go to the directory which you wish to make into a Git repo: `$ cd ~/GitRepos/MyProject`  
+2. Initialize the directory as a Git repo: `git init`.
+3. Confirm that it worked by looking for the hidden `.git` file in your directory: `ls -a`
 
 
 #### Forking Someone Else's Repo (via GitHub website)
+1. Go to someone else's repo and click on the **fork** button on the URC.
+2. Wait while GitHub does its work.
+3. Check that you now have a new repo in your GitHub account.
 
 
-
-#### Command Line Set Up for Cloning a Repo
+#### Cloning a Repo onto Your Local computer (via CLI)
+```git clone URL-of-Origin-Repo Directory-Address-of-Local-Repo```  
+e.g.  
+```git clone https://github.com/chungkky/2017-08-02_Collaborating-with-Git.git ~/GitHubRepros_KC/2017-08-02_Collaborating-with-Git```  
