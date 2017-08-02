@@ -45,6 +45,10 @@
 - Project Lead accepts Pull Requests (PRs) fro collaborators, reviews them, then merges them into main repo.
 
 
+#### Fork and Pull Workflow  
+- to be demonstrated during lesson
+
+
 ### Some Git Terminology/Jargon
 #### Repos and Branches
 
@@ -97,8 +101,8 @@ Set up your favorite text editor (default editor):
 
 See https://swcarpentry.github.io/git-novice/02-setup/ for settings for other text editors
 
-
-
+------------------------------------------------------
+## Exercise 1
 ### Two Person Collaboration via the CLI - Shared Repo Workflow (without branches)
 This section is based on the SWC Git Novice lesson https://swcarpentry.github.io/git-novice/08-collab/
 
@@ -134,15 +138,13 @@ Push your changes to the Owner's repo on GitHub:
 Look at Owner's GitHub repo and see new commit(s) from Collaborator.  
 
 Download (pull) Collaborators changes to Owner's local repo:  
-```$ git pull origin master```
- 
-**END of Two Person Collaboration  via the CLI**
+```$ git pull origin master```  
 
+---------------------------------
 
-
-
+## Exercise 2
 ### Solo Practise via the GitHub GUI
-This is mainly the 10 mins GitHub "Hello World" tutorial
+This exercose is based on the 10 mins GitHub "Hello World" tutorial
 https://guides.github.com/activities/hello-world/
 
 #### A. Create a Remote Repo in your GitHub Account
@@ -183,9 +185,11 @@ You will merge your  `readme-edits` branch into your `master` branch.
 2. Click **Confirm merge**.
 3. You can now delete the branch
 
+--------------------------------
 
+## Exercise 3
 ### Two Person Practise via GitHub GUI  
-This is mainly a summary of the Mozilla Science WOW lesson on GitHub for Collaborating on Open Projects   
+This exercise is based on the Mozilla Science WOW lesson on GitHub for Collaborating on Open Projects   
 http://mozillascience.github.io/working-open-workshop/github_for_collaboration/  
 
 One of you is the Project Lead. The other will be the Contributor.
@@ -251,11 +255,9 @@ One of you is the Project Lead. The other will be the Contributor.
 1. Click on the **Merge pull request** button.
 2. Close the issue; additional remarks and thanks.
 
+----------------------------------
 
-
-
-
-### Miscellaneous Tasks
+## Miscellaneous Tasks
 #### Create a Local Git Repo (via CLI)
 1. Go to the directory which you wish to make into a Git repo: `$ cd ~/GitRepos/MyProject`  
 2. Initialize the directory as a Git repo: `git init`.
