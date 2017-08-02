@@ -72,8 +72,8 @@ Pull Request | Term used in collaboration. You "issue a pull request" to the own
 
 
 ### Configuring git global settings on your local computer
-(You only have to do this once; global settings apply to all your git repos)
-Note: Any Local settings you initiate within individual git repositories will over ride global settings.
+You only have to do this once; global settings apply to all your git repos.  
+Note: Any Local settings you initiate within individual git repositories will over ride global settings.  
 - username
 - email
 - display colours
