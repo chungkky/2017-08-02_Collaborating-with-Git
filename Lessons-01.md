@@ -98,6 +98,49 @@ Set up your favorite text editor (default editor):
 See https://swcarpentry.github.io/git-novice/02-setup/ for settings for other text editors
 
 
+
+### Two Person Collaboration  via the CLI - Shared Repo Workflow (without branches)
+This section is based on the SWC Git Novice lesson https://swcarpentry.github.io/git-novice/08-collab/
+
+One of you will be the "Owner" and one of you will be the "Collaborator."
+
+#### A. Owner gives collaborator access to their repo.
+1. Go to your GitHub repo
+2. Add a file called "tenlines.txt" and put the text from the etherpad into the file. Commit your changes.
+2. Click on **Settings** tab.
+3. Click **Collaborators**
+4. Enter collaborataors username
+
+#### B. Collaborator clones Owner's Repo
+1. Go to https://github.com/notifications and accept access to Owner's repo.
+2. On the CLI, clone the owner's repo but issuing the commmand:  
+```$ git clone URL-of-Origin-Repo Directory-Address-of-Local-Repo```  
+
+#### C. Collaborator works on clone of Owner's Repo
+Go to your cloned repo:  
+```$ cd ~/.../yourClone```  
+
+Open editor and revise working file:   
+```atom tenlines.txt```  
+
+Commit your changes to your local repo:
+```$ git add tenlines.txt```  
+```$ git commit -m "your commit message"```  
+
+Push your changes to the Owner's repo on GitHub:
+```$ git push origin master```  
+
+#### D. Owner review and accepts changes from Collaborator
+Look at Owner's GitHub repo and see new commit(s) from Collaborator.  
+
+Download (pull) Collaborators changes to Owner's local repo:  
+```$ git pull origin master```
+ 
+**END of Two Person Collaboration  via the CLI**
+
+
+
+
 ### Solo Practise via the GitHub GUI
 This is mainly the 10 mins GitHub "Hello World" tutorial
 https://guides.github.com/activities/hello-world/
