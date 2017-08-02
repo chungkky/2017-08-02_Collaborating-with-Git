@@ -123,11 +123,11 @@ Go to your cloned repo:
 Open editor and revise working file:   
 ```atom tenlines.txt```  
 
-Commit your changes to your local repo:
+Commit your changes to your local repo:  
 ```$ git add tenlines.txt```  
 ```$ git commit -m "your commit message"```  
 
-Push your changes to the Owner's repo on GitHub:
+Push your changes to the Owner's repo on GitHub:  
 ```$ git push origin master```  
 
 #### D. Owner review and accepts changes from Collaborator
