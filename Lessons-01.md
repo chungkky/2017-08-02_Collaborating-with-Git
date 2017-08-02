@@ -84,9 +84,9 @@ Note: Any Local settings you initiate within individual git repositories will ov
 
 Command line git syntax is: ```git verb```
 
->```$ git config --global user.name "Albert Einstein"```
->```$ git config --global user.email   "bertie@worlduniversity.edu"```
->```$ git config --global color.ui "auto"```
+>```$ git config --global user.name "Albert Einstein"```  
+>```$ git config --global user.email   "bertie@worlduniversity.edu"```  
+>```$ git config --global color.ui "auto"```  
 
 Use your own name and email address instead of Einstein's. This user name and email will be associated with your subsequent Git activity, which means that any changes pushed to a Git host server will include this information.
 
@@ -94,8 +94,8 @@ For this lesson, we will be interacting with GitHub and so the email address use
 
 Set up your favorite text editor (default editor):
 
->```$ git config --global core.editor "nano -w"```
->```$ git config --global core.editor "atom --wait"```
+>```$ git config --global core.editor "nano -w"```  
+>```$ git config --global core.editor "atom --wait"```  
 
 See https://swcarpentry.github.io/git-novice/02-setup/ for settings for other text editors
 
