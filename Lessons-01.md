@@ -99,7 +99,7 @@ See https://swcarpentry.github.io/git-novice/02-setup/ for settings for other te
 
 
 
-### Two Person Collaboration  via the CLI - Shared Repo Workflow (without branches)
+### Two Person Collaboration via the CLI - Shared Repo Workflow (without branches)
 This section is based on the SWC Git Novice lesson https://swcarpentry.github.io/git-novice/08-collab/
 
 One of you will be the "Owner" and one of you will be the "Collaborator."
@@ -184,7 +184,7 @@ You will merge your  `readme-edits` branch into your `master` branch.
 3. You can now delete the branch
 
 
-### Two Person Practise via GitHub guides  
+### Two Person Practise via GitHub GUI  
 This is mainly a summary of the Mozilla Science WOW lesson on GitHub for Collaborating on Open Projects   
 http://mozillascience.github.io/working-open-workshop/github_for_collaboration/  
 
