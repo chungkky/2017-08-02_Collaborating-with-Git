@@ -10,6 +10,7 @@ Etherpad URL: https://etherpad.wikimedia.org/p/2017-08-02_UTCoders_GitCollab
 * Visualizing Git Concepts with D3 https://onlywei.github.io/explain-git-with-d3/
 * Collaborative Development Models/Workflows https://help.github.com/articles/about-collaborative-development-models/
 * SWC's Version Control with Git Lesson (CLI) https://swcarpentry.github.io/git-novice/
+* Mozilla Science Working Open Workshop (WOW) lesson GitHub for Collaborating on Open Projects https://mozillascience.github.io/working-open-workshop/github_for_collaboration/
 * The Pro Git Book https://git-scm.com/book/en/v2
 * Atlassian has several good tutorials on Git:
   * Index of All Tutuorials https://www.atlassian.com/git/tutorials  
