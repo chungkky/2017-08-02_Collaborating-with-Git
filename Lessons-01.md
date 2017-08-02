@@ -100,7 +100,7 @@ Set up your favorite text editor (default editor):
 See https://swcarpentry.github.io/git-novice/02-setup/ for settings for other text editors
 
 
-### Solo Practise
+## Solo Practise via the GitHub GUI
 This is mainly the 10 mins GitHub "Hello World" tutorial
 https://guides.github.com/activities/hello-world/
 
@@ -113,13 +113,34 @@ https://guides.github.com/activities/hello-world/
 
 #### B. Create a Branch
 
-1. Click drop down at top of file list that says *branch: master*.
+1. Click drop down at top of file list that says **branch: master**.
 2. Type a branch name, `readme-edits`, into the new branch text box.
-3. Select the blue *Create branch* box or hit "Enter" on your keyboard. Notice you are now on the code view of your `readme-edits` branch, which is a copy of `master`.
+3. Select the blue **Create branch** box or hit "Enter" on your keyboard. Notice you are now on the code view of your `readme-edits` branch, which is a copy of `master`.
 
 #### C. Make and commit changes
+You are now on your `readme-edits` branch.  
 
+  1. Select the `README.md` file.
+  2. Click on the pencil icon (URC) of the file view.
+  3. Edit the file. Write something about yourself and your project.
+  4. Write a commit message at bottom of screen.
+  5. Click the **Commit changes** button.
 
+#### D. Open a Pull Request (PR)
+
+1. Click on the **Pull Request** TAB, which takes you to the PR page
+2. Click on the green **New Pull Request** button.
+3. Select the branch you made, `readme-edits`, to compare with the original, `master`.
+4. Review your work.
+5. Name your pull request and give it a brief description. You can use @mention in your description to ask for feedback by specific persons.
+6. Click on the green **Create Pull Request** button.
+
+#### E. Merge your Pull Request
+You will merge your  `readme-edits` branch into your `master` branch.  
+
+1. Click on the green **Merge pull request** button.
+2. Click **Confirm merge**.
+3. You can now delete the branch
 
 
 
