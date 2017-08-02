@@ -1,4 +1,4 @@
-### Collaborating with Git
+## Collaborating with Git
 
 #### QUESTIONS TO ASK PARTICIPANTS TO GAUGE KNOWLEDGE LEVEL
 1. How familiar are you with the unix command line? How often do you work with it?
@@ -24,8 +24,7 @@
 - Be careful! You are cloning the main repository.
 - Everyone has push and pull access to the central repo.
 - Never commit to the master directly.
-- Always do your work on branches and then .
--
+- Always do your work on a different branch from master.
 
 #### Basic Shared Repository Workflow
 - update your local repo with `git pull origin master`,
@@ -39,7 +38,6 @@
 - click on "Send Pull Request"
 
 
-
 #### Fork and Pull Model
 - This is the model used by U of T Coders on its own website and repos.
 - The "owner"/"Project Leader" of the upstream repo assigns rights to "Collaborators"
@@ -47,8 +45,8 @@
 - Project Lead accepts Pull Requests (PRs) fro collaborators, reviews them, then merges them into main repo.
 
 
-#### Some Git Terminology/Jargon
-**Repos and Branches**  
+### Some Git Terminology/Jargon
+#### Repos and Branches
 
 Term | Description
 ----- | ------------
@@ -58,7 +56,7 @@ Local (repo) | The repo on your local computer.
 Master | The main branch (version) of your repo.
 
 
-**Basic Commands/Actions**
+#### Basic Commands/Actions
 
 Term | Explanation
 ---| ---
@@ -73,7 +71,7 @@ Pull Request | Term used in collaboration. You "issue a pull request" to the own
 
 
 
-#### Configuring git global settings on your local computer
+## Configuring git global settings on your local computer
 (You only have to do this once; global settings apply to all your git repos)
 Note: Any Local settings you initiate within individual git repositories will over ride global settings.
 - username
@@ -100,7 +98,7 @@ Set up your favorite text editor (default editor):
 See https://swcarpentry.github.io/git-novice/02-setup/ for settings for other text editors
 
 
-## Solo Practise via the GitHub GUI
+### Solo Practise via the GitHub GUI
 This is mainly the 10 mins GitHub "Hello World" tutorial
 https://guides.github.com/activities/hello-world/
 
@@ -143,7 +141,7 @@ You will merge your  `readme-edits` branch into your `master` branch.
 3. You can now delete the branch
 
 
-## Two Person Practise via GitHub guides  
+### Two Person Practise via GitHub guides  
 One of you is the Project Lead. The other will be the Contributor.
 
 #### A. Project Lead: Create a Remote Repo in your GitHub Account
@@ -211,7 +209,7 @@ One of you is the Project Lead. The other will be the Contributor.
 
 
 
-## Miscellaneous Tasks
+### Miscellaneous Tasks
 #### Create a Local Git Repo (via CLI)
 1. Go to the directory which you wish to make into a Git repo: `$ cd ~/GitRepos/MyProject`  
 2. Initialize the directory as a Git repo: `git init`.
