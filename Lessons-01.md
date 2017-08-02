@@ -104,7 +104,7 @@ See https://swcarpentry.github.io/git-novice/02-setup/ for settings for other te
 ------------------------------------------------------
 ## Exercise 1
 ### Two Person Collaboration via the CLI - Shared Repo Workflow (without branches)
-This section is based on the SWC Git Novice lesson https://swcarpentry.github.io/git-novice/08-collab/
+This exercise is based on the SWC Git Novice lesson https://swcarpentry.github.io/git-novice/08-collab/
 
 One of you will be the "Owner" and one of you will be the "Collaborator."
 
@@ -140,11 +140,74 @@ Look at Owner's GitHub repo and see new commit(s) from Collaborator.
 Download (pull) Collaborators changes to Owner's local repo:  
 ```$ git pull origin master```  
 
+---------------------------------  
+## Exercise 2
+### Dealing with Merge Conflicts
+This section is based on the SWC Git Novice lesson https://swcarpentry.github.io/git-novice/09-conflict/  
+
+When two or more people work on the same files, conflicts are bound to occur. Version control will help notify us when there are conflicts. It will be up to the humans to sort out which changes to retain.  
+
+The file "tenlines.txt" currently looks like this:  
+```$ cat tenlinestxt```  
+
+Let's say **Person A** adds a line to the file and review:  
+```$ atom tenlines.txt```  
+```$ cat tenlines.txt```  
+
+and pushes changes to GitHub:  
+```$ git add tenlines.txt```  
+```$ git commit -m "added a line in local copy and pushed to remote"```  
+```$ git push origin master```  
+
+Now, **Person B** modifies her local file without first updating it (pulling the repo) from GitHub:  
+Add a line to the file and review:  
+```$ atom tenlines.txt```  
+```$ cat tenlines.txt```  
+
+Commit the changes locally:  
+```$ git add tenlines.txt```  
+```$ git commit -m "added a line in local copy"```  
+
+But when we push, Git will not allow this because there were changes to the same line in the two files:  
+```$ git push origin master```  
+
+To resolve the conflict, you need to **pull** the changes from GitHub, **merge** them into your local copy, and then **push** it back to GitHub  
+```$ git pull origin master```  
+
+Git tells us there is a conflict and tells you the file it's in.  
+Let's look at the file:  
+```cat tenlines.txt```  
+
+Git has put some new info in our file:  
+
+```<<<<<<<<<<<<< HEAD```  
+```our text```  
+```========```  
+```Other persons's text```  
+```>>>>>>>>```  
+
+You need to open your text editor and make the changes which is the accepted version by you and your collaborator:  
+```atom tenfiles.txt```  
+
+Then, to finish mergining, you need to **add**, **commit**, and **push** your changes back to GitHub:  
+```$ git add tenlines.txt```  
+
+You can verify the status of your repo first, then commit and push:  
+```$ git status```  
+```$ git commit -m "Merged changes from GitHub"  
+```$ git push origin master```
+
+Git keeps track that a conflict has been resolved and what was merged into what so when Person A who made the first changes pulls from GitHub, she doesn't have to fix things and merge again.  
+
+Person A pull and sees new version of the file:  
+```$ git pull origina master```  
+```$ cat tenlines.txt```  
+
 ---------------------------------
 
-## Exercise 2
+## Exercise 3
 ### Solo Practise via the GitHub GUI
-This exercose is based on the 10 mins GitHub "Hello World" tutorial
+This exercise is based on the 10 mins GitHub "Hello World" tutorial
 https://guides.github.com/activities/hello-world/
 
 #### A. Create a Remote Repo in your GitHub Account
@@ -187,7 +250,7 @@ You will merge your  `readme-edits` branch into your `master` branch.
 
 --------------------------------
 
-## Exercise 3
+## Exercise 4
 ### Two Person Practise via GitHub GUI  
 This exercise is based on the Mozilla Science WOW lesson on GitHub for Collaborating on Open Projects   
 http://mozillascience.github.io/working-open-workshop/github_for_collaboration/  
