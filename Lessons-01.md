@@ -22,9 +22,9 @@
 #### Shared Repository Model
 - For small projects where you are basically in the same physical space (e.g. lab with offices near each other).
 - Be careful! You are cloning the main repository.
-- Everyone has push and pull access to the central repo.
-- Never commit to the master directly.
-- Always do your work on a different branch from master.
+- Everyone has push and pull access to the central repo, so be careful and:
+  - Never commit to the master directly.
+  - Always do your work on a different branch from master.
 
 #### Basic Shared Repository Workflow
 - update your local repo with `git pull origin master`,
