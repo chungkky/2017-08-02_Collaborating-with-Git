@@ -194,7 +194,7 @@ Then, to finish mergining, you need to **add**, **commit**, and **push** your ch
 
 You can verify the status of your repo first, then commit and push:  
 ```$ git status```  
-```$ git commit -m "Merged changes from GitHub"  
+```$ git commit -m "Merged changes from GitHub"```  
 ```$ git push origin master```
 
 Git keeps track that a conflict has been resolved and what was merged into what so when Person A who made the first changes pulls from GitHub, she doesn't have to fix things and merge again.  
