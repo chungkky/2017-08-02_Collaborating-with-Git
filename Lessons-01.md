@@ -142,6 +142,9 @@ You will merge your  `readme-edits` branch into your `master` branch.
 
 
 ### Two Person Practise via GitHub guides  
+This is mainly a summary of the Mozilla Science WOW lesson on GitHub for Collaborating on Open Projects   
+http://mozillascience.github.io/working-open-workshop/github_for_collaboration/  
+
 One of you is the Project Lead. The other will be the Contributor.
 
 #### A. Project Lead: Create a Remote Repo in your GitHub Account
