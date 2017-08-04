@@ -54,8 +54,8 @@
 
 Term | Description
 ----- | ------------
-Origin (repo) | Your remote repo; it is the "origin" for your local copy. Either it is a repo you created yourself or it is a fork of someone else's GitHub repo.
-Upstream (repo)| The main repo from which you forked your GiHub repo.
+Origin (repo) | Your remote repo (on GitHub) it is the "origin" for your local copy. Either it is a repo you created yourself or it is a fork of someone else's GitHub repo.
+Upstream (repo)| The main repo (on GitHub) from which you forked your GiHub repo.
 Local (repo) | The repo on your local computer.
 Master | The main branch (version) of your repo.
 
@@ -64,7 +64,7 @@ Master | The main branch (version) of your repo.
 
 Term | Explanation
 ---| ---
-Fork | Make a copy of someone else's GitHub repo in your own GitHub repo.
+Fork | Make a copy of someone else's GitHub repo in your own GitHub account.
 Clone | Make a copy of the your GitHub repo on your local computer.  In CLI: 'git clone' copies a remote repo to create a local repo with a remote called `origin` automatically set up.
 Pull | You incorporate changes into your repo.
 Add | Adding snapshots of your changes to the "Staging"  area.

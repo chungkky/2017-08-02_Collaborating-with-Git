@@ -1,11 +1,11 @@
 # 2017-08-02_Collaborating-with-Git
 Workshop for U of T Coders, 2017-08-02  
-Presenter: Kathy K.Y. Chung (Post-Doc Fellow in Digitial Humanities, Records of Early English Drama)
+Presenter: Kathy K.Y. Chung (Post-Doc Fellow in Digital Humanities, Records of Early English Drama)
 
 Etherpad URL: https://etherpad.wikimedia.org/p/2017-08-02_UTCoders_GitCollab
 
 
-### Userful Resources 
+### Userful Resources
 * Git Cheat Sheet (CLI) https://services.github.com/resources/cheatsheets/
 * Visualizing Git Concepts with D3 https://onlywei.github.io/explain-git-with-d3/
 * Collaborative Development Models/Workflows https://help.github.com/articles/about-collaborative-development-models/
